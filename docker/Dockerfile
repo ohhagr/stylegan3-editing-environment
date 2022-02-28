@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git ninja-build libglib2.0-0 libsm6 lib
 RUN conda clean --all
 RUN conda update -n base -c defaults conda
 
-RUN https://github.com/ohhagr/stylegan3-editing.git /temp
+RUN git clone https://github.com/ohhagr/stylegan3-editing.git /temp
 WORKDIR /temp/environment
 RUN conda env create -f sg3_env.yaml &&\
 	conda init && \
