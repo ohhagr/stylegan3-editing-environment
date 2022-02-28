@@ -1,4 +1,6 @@
 for my environment
+original repository:
+https://github.com/yuval-alaluf/stylegan3-editing 
 
 # Third Time's the Charm? Image and Video Editing with StyleGAN3
 
