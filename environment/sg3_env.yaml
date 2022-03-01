@@ -42,7 +42,4 @@ dependencies:
     - gdown==4.2.0
     - git+https://github.com/openai/CLIP.git
     - pyrallis==0.2.2
-    - jupyterlab
-    - PyDrive
-    - google-colab
 prefix: ~/anaconda3/envs/sg3_env
